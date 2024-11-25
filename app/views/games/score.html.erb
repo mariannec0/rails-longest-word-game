@@ -1,0 +1,7 @@
+<% if @score %>
+  <h3><strong>Your results:</strong></h3>
+  <p>Longest word: <%= @user_word %></p>
+  <p>Your score: <%= @score %></p>
+  <p>Message: <%= @message %> </p>
+  <%= link_to "Play again", new_path %>
+<% end %>
